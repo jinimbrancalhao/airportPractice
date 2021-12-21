@@ -6,7 +6,7 @@ const Bag = require('../class/Bag')
 describe('Airport Class', () => {
   const testAirport = new Airport('JFK')
   const testPlane = new Plane('B500')
-  const testBag = new Bag('Jin')
+  const testBag = new Bag('Gucci', 'Jin')
   const testPerson = new Person('Jin')
 
   test('has a name', () => {

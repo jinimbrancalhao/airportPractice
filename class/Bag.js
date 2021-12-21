@@ -1,5 +1,6 @@
 class Bag {
-  constructor(passenger) {
+  constructor(brand, passenger) {
+    this.brand = brand
     this.passenger = passenger
     this.checkIn = 0
     this.carryOn = 0

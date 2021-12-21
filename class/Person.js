@@ -1,7 +1,8 @@
 class Person {
-  constructor(name, role) {
+  constructor(name, role, destination) {
     this.name = name
     this.role = role
+    this.destination = destination
   }
 }
 
